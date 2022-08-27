@@ -1,0 +1,237 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box; 
+    list-style: none;
+}
+
+body{background: #ffffff; font-family: 'Roboto'; font-weight: 400; font-size: 16px; line-height: 24px;}
+
+h1{ font-size: 60px; line-height: 65px;}
+h2{ font-size: 50px; line-height: 55px; font-weight: 700;}
+h3{ font-size: 30px; line-height: 35px;}
+h4{ font-size: 25px; line-height: 30px;}
+
+p{ font-size: 16px; line-height: 22px; padding: 0 0 10px 0; font-weight: 400;}
+
+a{text-decoration: none; color: orange;}
+img{ max-width: 100%; height: auto;}
+
+.globalul{ width: 100%; display: flex; flex-wrap: wrap; padding: 10px 0;}
+.globalul li{ width: 100%; padding: 0 0 8px 18px; position: relative;}
+.globalul li::after{ content: ""; width: 5px; height: 5px; border-radius: 50%; background: orange; position: absolute; left: 0px; top:7px;}
+
+/***************************************************************/
+
+.wraper{width: 1140px; margin: 0 auto 0 auto;}
+
+.header{width: 100%; position: absolute; top: 0px; left: 0px; padding: 20px 0 0 0; }
+
+.header .wraper{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+
+.logodiv img{width: 100px;}
+
+.headerdiv ul{display: flex; flex-wrap: wrap;}
+
+.headerdiv ul li{ padding:0 20px 0 0; }
+
+.headerdiv ul li a{ font-size: 14px; color: #ffffff; font-weight: 600; }
+.headerdiv ul li a:hover{ color: orange;}
+
+
+.mintondiv{width: 100%; min-height: 500px;  background: url("../images/banner.jpg") no-repeat left top; background-size: cover; padding: 70px 0 60px 0; display: flex; flex-wrap: wrap;}
+.mintondiv .wraper{ display: flex; flex-wrap: wrap; align-items: center; min-height: 100%;}
+
+.mintoninn{width: 100%; text-align:center; padding:0px 0 0 0;}
+
+.mintoninn h1{color: #ffffff;}
+
+.mintoninn p{color: #ffffff; padding: 30px 0 50px 0;}
+
+.mintoninn a{ color:black; background-color: #ffffff; padding: 12px 30px;}
+
+.mintoninn a:hover{background-color: #999; color: #fff;}
+
+
+.designdiv{width: 100%; background-color: #ffffff; padding: 50px 0 0px 0;}
+
+.designinn{width: 65%; margin: auto; text-align: center;}
+
+.designinn h2{ padding: 0 0 20px 0;}
+
+
+.desigancenter{width: 100%; text-align:center; padding: 30px 0px 130px 0px; display: flex; flex-wrap: wrap;}
+.desiganmid{width: 33%; padding: 30px 40px 30px 30px;}
+
+.desiganmid:hover{ border: 1px solid#999; background-color: green;}
+
+.desiganmid h3{ font-size: 20px; padding: 20px 0 20px 20px;}
+
+
+
+
+
+.startegydiv{width: 100%; background-color: #ffffff; padding: 0 0 100px 0;}
+
+.startegydiv .wraper{display: flex; flex-wrap: wrap;}
+
+.startegyin{width: 50%; padding: 20px 10px 0 0;}
+
+
+
+.startegyin h3{font-size: 20px; font-weight: 400; padding: 30px 0 20px 0;}
+
+.startegyin p{padding: 0 0 50px 0;}
+
+.startegyin a{color: #ffffff; border: 1px solid#999; padding:15px 25px ; background-color: green;}
+
+.startegyin a:hover{color: orange;}
+
+
+.startegymid{width: 50%;}
+
+.startegymi img{width: 100%;}
+
+
+.makediv{width: 100%; background-color: #ffffff; padding:0 0 70px 0;}
+
+.makediv .wraper{display: flex; flex-wrap: wrap;}
+
+.makeinn{width: 50%;}
+
+.makecenter{width: 50%; padding: 0 0 0 20px;}
+
+.makecenter h2{ padding: 0 0 30px 0;}
+
+
+
+.clientsdiv{width: 100%; background-color: #ffffff;   min-height: 500px;  background: url("../images/banner.jpg") no-repeat left top; background-size: cover; margin: 0 0 60px 0;}
+
+.clientsinn{width: 60%; margin: auto; text-align: center;}
+
+.clientsinn h2{ color: #ffffff; padding: 150px 0 30px 0;}
+
+
+.clientsinn img{border: 1px solid#999; border-radius: 150px 150px; padding: 30px 30px; background-color: #ffffff;}
+ 
+
+.servicediv{width: 100%; background-color:antiquewhite; padding: 0 0 30px 0;}
+
+.serviceinn{width: 55%; margin: auto; text-align: center; padding:80px 0 40px 0;}
+
+.serviceinn h2{font-size: 50px; padding: 0 0 20px 0;}
+
+
+.servicemid{width: 100%; display: flex; flex-wrap: wrap; text-align: center;}
+
+.servicecenter{width: 32%;  border: 1 px solid#999; background-color: #ffffff; padding: 40px 40px 30px 40px; margin: 0 2% 2% 0;}
+
+.servicecenter:nth-child(3n){margin-right: 0px;}
+
+.servicecenter h3{font-size: 24px; padding: 20px 0 20px 0;}
+.servicecenter label{ width: 100%; display: flex; align-items: center; justify-content: center; height: 200px; }
+
+
+.supordiv{width: 100%; background-color: #ffffff; min-height: 500px;  background: url("../images/counter-bg.jpg") no-repeat left top; background-size: cover;}
+
+.supordiv .wraper{display: flex; flex-wrap: wrap; padding: 100px 0 0 0;}
+
+.suportinn{width:23%; text-align: center;  border: 1px solid#999; margin: 0 2.2% 2.2% 0; padding: 50px 0 40px 0;}
+
+.suportinn:nth-child(4n){margin-right: 0px;} 
+
+
+.suportinn h2{ color: #ffffff; padding: 20px 0 10px 0;}
+
+.suportinn h3{font-size: 18px; color: #ffffff;}
+
+.coloreone{ background:green;}
+.colortwo { background:blue;}
+.colorthree{ background:aqua;}
+.colorfour{ background:pink;}
+
+.processdiv{width: 100%; padding: 80px 0 0 0;}
+
+.processinn{width: 60%; margin: auto; text-align: center;}
+
+.processinn h2{font-size: 50px; padding: 0 0 20px 0 ;}
+
+
+.processmid{width: 100%; display: flex;flex-wrap: wrap; padding: 50px 0px 40px 0px;}
+
+.processcenter{width:33%; text-align: center;}
+
+.processcenter h3{font-size: 22px; padding: 10px 0 10px 0;}
+
+.processcenter p{padding: 0 60px 0 60px;}
+
+
+
+.workdiv{width: 100%; padding: 80px 0 0 0; }
+
+.workinn{width: 60%; margin: auto; text-align: center;}
+
+.workinn h2{font-size: 50px; padding: 0 0 20px 0 ;}
+
+
+.workinn ul{display: flex;flex-wrap: wrap; }
+
+.workinn ul li{padding: 50px 0px 50px 40px;}
+
+.workinn ul li a{color: #000; border-right: 1px solid#999 ; padding:0 20px 0 0px;}
+
+.workinn ul li a:hover{color: green;}
+
+
+.workcenter{width: 100%; display: flex;flex-wrap: wrap; padding: 0 0 30px 0;}
+
+.workright{width:32%; margin: 0 2% 2% 0 ;}
+
+.workright:nth-child(3n){margin-right: 0px;}
+
+
+.footer{width: 100%; background-color:#333; padding: 80PX 0 70px 0;}
+
+.footer .wraper{display: flex; flex-wrap: wrap;}
+
+.footerdiv{width:25%;}
+
+.logomid IMG{width:60%;} 
+
+.footerdiv p{color: lightgray; padding: 10px 15px 20px 0px;}
+
+.footerdiv ul{display: flex; flex-wrap: wrap;}
+
+.footerdiv ul li{padding: 0 30px 0 0;}
+
+.footerdiv ul li a{border: 1px solid#999; border-radius: 100px 100px; padding: 5px 5px; background-color:#ffffff;}
+
+
+.footerdiv h2{font-size: 20px; color: #ffffff; padding: 0 0px 20px 0;}
+
+.footerdiv ol{}
+
+.footerdiv ol li{padding: 0 0 0 0;}
+
+.footerdiv  ol li a{color:lightgray;} 
+
+.footerdiv  ol li a:hover{color: orange;}
+
+.footerdiv{width: 25%;}
+.eamildiv{width:100%;}
+.eamildiv input{width: 100%; height: 50px; font-size: 18px; padding: 0 0 0 10px; margin: 0 0 20px 0;}
+
+.eamildiv button{width: 100%; height: 50px; font-size: 18px; background-color: black; color: #ffffff; border: 0px;}
+
+.eamildiv button:hover{background: green;}
+
+.desiganlist{ width: 100%;}
+.desigan{width: 100%; display: flex;flex-wrap: wrap; justify-content: space-between;  align-items: center; padding: 0 0 20px 0;}
+.desigan h3{ width: 100%; font-size: 16px; font-weight: 400; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 0 10px 0; }
+.progress{ width: 100%; border-radius: 20px; height: 15px; background: #eee; position: relative; overflow: hidden;}
+.progress::after{ content: ""; position: absolute; left: 0px; top: 0px; background: orange; width: 100%; height: 100%;}
+ .pro1:after{ width: 85%;}
+ .pro2:after{ width: 70%;}
+ .pro3::after{ width: 60%;}
+
+
+
